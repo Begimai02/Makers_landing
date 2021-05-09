@@ -40,19 +40,28 @@ ol.list {
   list-style: none;
   margin: 1.75rem 0;
   padding-left: 1rem;
-  color:rgb(43, 42, 52)
+  color:rgb(43, 42, 52);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .list>li{
   background: white;
+  width: 250px;
+  height: 150px;
   border-radius: 0 0.5rem 0.5rem 0.5rem;
   box-shadow: 0.25rem 0.25rem 0.6rem rgba(72,69,90,0.05), 0 0.5rem 1.125rem rgba(72,69,90,0.05);;
   counter-increment: gradient-counter;
   margin-top: 1rem;
   margin-bottom: 2rem;
   min-height: 3rem;
-  padding: 1rem 1rem 1rem 3rem;
+  padding: 1rem 1rem 1rem 1.5rem;
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 
@@ -112,30 +121,37 @@ ol.list>li::before {
   }
 }
 
+@media all and (max-width: 740px){
+  .list>li{
+    width: 200px;
+    height: 150px;
+    font-size: 14px;
+    padding-left: 2rem;
+  }
+}
+@media all and (max-width: 595px){
+  .pThree_outer{
+    height: 2200px;
+  }
+
+  ol.list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+}
+
 
 @media all and (max-width: 590px){
   .pThree_title{
       font-size: 2em
   }
-  .pThree_outer{
-    height: 1300px;
-  }
 }
 
-@media all and (max-width: 540px){
-  .hero_text{
-      margin-bottom: 60px;
-  }
-  .pThree_outer{
-    height: 1350px;
-  }
- 
-}
 
 @media all and (max-width: 480px){
-  .pThree_outer{
-    height: 1370px;
-  }
   .list{
     font-size: 14px;
   }
@@ -148,9 +164,6 @@ ol.list>li::before {
   .pTwo_content{
       height: auto;
   }
-  /* .pThree_outer{
-    height: 1550px;
-  } */
   .list{
     font-size: 12px;
   }
@@ -162,8 +175,8 @@ ol.list>li::before {
   .pThree_title{
       font-size: 1.3em
   }
-  .pThree_outer{
-    height: 1500px;
+  .list>li{
+    font-size: 12px;
   }
 }
 

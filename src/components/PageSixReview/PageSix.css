@@ -146,7 +146,9 @@
     .pSix_title{
         font-size: 2em
     }
-
+    .pSix_outer{
+      height: 400px;
+    }
 
     .pThree_max {
         display: none;

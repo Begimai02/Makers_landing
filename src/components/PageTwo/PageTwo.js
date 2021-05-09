@@ -2,9 +2,6 @@ import React from 'react';
 import './PageTwo.css';
 
 import { makeStyles } from '@material-ui/core/styles';
-import Card from '@material-ui/core/Card';
-import CardContent from '@material-ui/core/CardContent';
-import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
 
 const useStyles = makeStyles({
@@ -16,7 +13,6 @@ const useStyles = makeStyles({
       // marginLeft: "30px",
       textAlign: "center",
       color: "rgb(56, 80, 239)",
-      background: "rgb(240, 242, 248)",
       fontFamily: 'Montserrat',
       marginBottom: "40px"
     },
@@ -48,10 +44,10 @@ const PageTwo = () => {
             </div>
             <div className="pTwo_cards">
 
-            <Grid container d-flex justify="center" alignItems="center" className={classes.root1}  spacing={2}>
+            <Grid container d-flex="true" justify="center" alignItems="center" className={classes.root1}  spacing={2}>
                     {
                       pTwo && pTwo.map(item => (
-                        <Grid className={classes.root} key={item.id + "id"}  mb="20" sm={6} xs={12}>
+                        <Grid item className={classes.root} key={item.id + "id"}  mb="20" sm={6} xs={12}>
                           <div className="pTwo_card">
                               <h3 className="card_h">{item.title}</h3>
                               <p className="card_p">{item.desc}</p>
@@ -74,21 +70,3 @@ const PageTwo = () => {
 export default PageTwo;
 
 
-// <Card  className={classes.root}>
-// <CardContent>
-//   <Typography variant="h5" component="h2" className={classes.title}>
-//     {item.title}
-//   </Typography>
-//   <Typography>
-//     {item.desc}
-//   </Typography>
-// </CardContent>
-// </Card>
-
-{/* <i class="fas fa-tachometer-alt"></i> fast */}
-
-{/* <i class="fas fa-briefcase"></i> work */}
-
-{/* <i class="fas fa-users"></i> team */}
-
-{/* <i class="fas fa-user-friends"></i> team */}

@@ -1,7 +1,6 @@
 import React from 'react';
 import './Hero.css'
 import Button from '../Button/Button';
-import hero from '../../assets/main.png';
 import hero2 from '../../assets/main3.jpg';
 
 const Hero = () => {
