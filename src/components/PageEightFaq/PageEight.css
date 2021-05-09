@@ -9,9 +9,10 @@
 }
 
 .pEight_outer{
-    height: 600px;
+    height: auto;
     overflow: hidden;
     box-sizing: border-box;
+    margin-bottom: 100px;
 }
 
 .pEight_container{
@@ -30,6 +31,7 @@
 }
 
 .pEight_title{
+    text-align: center;
     font-size: 3em;
     color: #48455A;
     margin: 0 0 40px -19px;
@@ -39,6 +41,7 @@
 .accordion{
     border-radius: 5px;
 }
+
 
 
 
@@ -145,6 +148,20 @@
     }
    
 }
+
+@media all and (max-width: 345px){
+    .pEight_heading{
+        font-size: 14px;
+    }
+}
+
+
+@media all and (max-width: 320px){
+    .pEight_heading{
+        font-size: 13px;
+    }
+}
+
 @media all and (max-width: 310px){
     .pEight_title{
         font-size: 1.3em

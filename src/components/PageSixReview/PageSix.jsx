@@ -2,7 +2,6 @@ import React from 'react';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
-import photo from '../../assets/photo.jpg';
 import './PageSix.css';
 
 const PageSix = () => {
@@ -33,23 +32,23 @@ const PageSix = () => {
                         <Slider className="pThree_max" {...settings}>
                             <div className="pThree">
                                 <h3 className="t_card_h">Review</h3>
-                                <p class="t_card_p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem, cupiditate?</p>
+                                <p className="t_card_p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem, cupiditate?</p>
                             </div>
                             <div className="pThree">
                                 <h3 className="t_card_h">Review</h3>
-                                <p class="t_card_p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem, cupiditate?</p>
+                                <p className="t_card_p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem, cupiditate?</p>
                             </div>
                             <div className="pThree">
                                 <h3 className="t_card_h">Review</h3>
-                                <p class="t_card_p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem, cupiditate?</p>
+                                <p className="t_card_p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem, cupiditate?</p>
                             </div>
                             <div className="pThree">
                                 <h3 className="t_card_h">Review</h3>
-                                <p class="t_card_p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem, cupiditate?</p>
+                                <p className="t_card_p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem, cupiditate?</p>
                             </div>
                             <div className="pThree">
                                 <h3 className="t_card_h">Review</h3>
-                                <p class="t_card_p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem, cupiditate?</p>
+                                <p className="t_card_p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem, cupiditate?</p>
                             </div>
                         </Slider>
 
@@ -57,23 +56,23 @@ const PageSix = () => {
                         <Slider className="pThree_min" {...settings1}>
                             <div className="pThree pThreeOne">
                                 <h3 className="t_card_h">Review</h3>
-                                <p class="t_card_p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem, cupiditate?</p>
+                                <p className="t_card_p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem, cupiditate?</p>
                            </div>
                             <div className="pThree pThreeOne">
                                 <h3 className="t_card_h">Review</h3>
-                                <p class="t_card_p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem, cupiditate?</p>
+                                <p className="t_card_p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem, cupiditate?</p>
                            </div>
                             <div className="pThree pThreeOne">
                                 <h3 className="t_card_h">Review</h3>
-                                <p class="t_card_p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem, cupiditate?</p>
+                                <p className="t_card_p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem, cupiditate?</p>
                            </div>
                             <div className="pThree pThreeOne">
                                 <h3 className="t_card_h">Review</h3>
-                                <p class="t_card_p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem, cupiditate?</p>
+                                <p className="t_card_p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem, cupiditate?</p>
                            </div>
                             <div className="pThree pThreeOne">
                                 <h3 className="t_card_h">Review</h3>
-                                <p class="t_card_p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem, cupiditate?</p>
+                                <p className="t_card_p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem, cupiditate?</p>
                            </div>
                         </Slider>
                     </div>

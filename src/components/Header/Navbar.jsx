@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import './Navbar.css';
 import logo from '../../assets/logo/makers_logo.svg';
-import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 
 const Navbar = () => {

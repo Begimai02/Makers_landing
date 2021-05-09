@@ -8,7 +8,6 @@ import react from '../../assets/stack/react.png';
 import node from '../../assets/stack/node3.png';
 import git from '../../assets/stack/git2.png';
 import data from '../../assets/stack/data2.png';
-import Button from '../Button/Button';
 
 const PageFour = () => {
     const stack = [
@@ -30,7 +29,7 @@ const PageFour = () => {
                             <Grid container className="pFour_root" alignItems="center" spacing={4} d-flex="true" justify="center">
                                 {
                                     stack && stack.map((item) => (
-                                        <Grid item key={item.id + "ids"} mb="24"  lg={3}>
+                                        <Grid item key={item.title + "four"} mb="24"  lg={3}>
                                             <div className={item.class}>
                                                 <div className="overlay"></div>
                                                 <div className={item.mainClass}>

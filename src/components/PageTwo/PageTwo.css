@@ -109,19 +109,6 @@
     transform: scale(21);
 }
 
-  
-    /* .pTwo_card>p:hover, .pTwo_card>h3:hover {
-    transition: all 0.3s ease-out;
-    color: rgba(255, 255, 255, 0.8); 
-}*/
-
-
-
-/* .pTwo_card>h3:hover, .pTwo_card>p:hover{
-    color: rgba(255, 255, 255, 0.8);
-    transition: all 0.3s ease-out;
-}  */
-
 .pTwo_card:hover .card_p, .card_h{
     color: rgba(255, 255, 255, 0.8);
     transition: all 0.3s ease-out;
